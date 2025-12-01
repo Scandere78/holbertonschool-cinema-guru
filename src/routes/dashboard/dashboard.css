@@ -1,0 +1,26 @@
+/* Container principal du dashboard */
+.dashboard {
+  min-height: 100vh;
+  background-color: #0a0a1a;
+}
+
+/* Body du dashboard (sidebar + contenu) */
+.dashboard-body {
+  display: flex;
+}
+
+/* Contenu du dashboard */
+.dashboard-content {
+  flex: 1;
+  padding: 30px;
+  color: #ffffff;
+}
+
+/* Page générique */
+.page {
+  color: #ffffff;
+}
+
+.page h1 {
+  margin-bottom: 20px;
+}

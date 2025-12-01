@@ -1,0 +1,14 @@
+/* Activity styles */
+.activity {
+  list-style: none;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: rgba(139, 92, 246, 0.1);
+  border-radius: 10px;
+  color: #a0a0a0;
+  font-size: 12px;
+}
+
+.activity p {
+  margin: 0;
+}
