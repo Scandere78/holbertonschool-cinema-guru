@@ -19,7 +19,7 @@ function SideBar() {
   // Fonction pour changer de page
   const setPage = (pageName) => {
     setSelected(pageName);
-    
+
     // Redirige vers la bonne page
     switch (pageName) {
       case 'Home':
@@ -39,7 +39,7 @@ function SideBar() {
   // Récupère les activités au chargement
   useEffect(() => {
     const accessToken = localStorage.getItem('accessToken');
-    
+
     axios.get('/api/activity', {
       headers: {
         Authorization: `Bearer ${accessToken}`

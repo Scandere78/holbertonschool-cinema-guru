@@ -111,7 +111,7 @@ function MovieCard({ movie }) {
       <div className="movie-card-content">
         <h3 className="movie-card-title">{movie.title}</h3>
         <p className="movie-card-synopsis">{movie.synopsis}</p>
-        
+
         {/* Genres */}
         <ul className="movie-card-genres">
           {movie.genres && movie.genres.map((genre, index) => (
